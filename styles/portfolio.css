@@ -53,6 +53,34 @@ opacity: 0.9;
 
 
 }
+.contact-me {
+    background-image: url(/images/background-contact.jpg);
+    
+    
+   
+}
+.contact-me h1 {
+    color: #353535;
+    text-align: center;
+    
+} 
+.contact-me h3 {
+    color: #353535;
+    text-align: center;
+   
+}
+.contact-me a {
+    color:#717A7B;
+    text-decoration: none;
+    background-color: #ffd9b6;
+}
+.contact-me p {
+    padding: 0;
+    font-family: var(--heading-font-family);
+    
+}
+
+
 
 
 h1 {
