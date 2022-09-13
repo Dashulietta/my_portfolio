@@ -7,7 +7,29 @@
 body {
     background-color: #122223;
 }
+
+.about-section {
+    background-image: url(/images/background2.jpg);
+    background-repeat: no-repeat;
+    background-size: 700px;
+} 
+.about-section h2 {
+    margin-top: 15px;
+    font-size: 38px;
+}
+ 
+.about-section p {
+    text-align: left;
+    padding: 0;
+    font-size: 18px ;
+}
+.about-section a{ 
+    margin-top: 10px;
+    margin-bottom: 20px;
     
+}
+
+
 h1 {
     color: #FFFFFF;
     font-family: var(--heading-font-family);
@@ -123,6 +145,16 @@ p {
     padding: 0;
     
 }
-
+.about-section {
+    text-align: center;
+}
+.about-section p{
+    text-align: center;
+    
+}
+.about-section a{ 
+    margin-top: 20px;
+    margin-bottom: 0;
 }
 
+}
