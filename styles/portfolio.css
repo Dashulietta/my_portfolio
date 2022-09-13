@@ -28,6 +28,31 @@ body {
     margin-bottom: 20px;
     
 }
+.content-container {
+    background-color: #ffd9b6;
+} 
+.content-container h1 {
+    color: #353535;
+    font-size: 44px;
+    text-align: center;
+
+}
+.content-container h3 {
+    text-align: center;
+    color: #353535;
+    font-size: 28px ;
+    margin: 20px, 0, 0;
+}
+.content-container p {
+    text-align: center;
+    font-family: var(--heading-font-family) ;
+    padding: 0;
+    font-size: 14px;
+color: #353535;
+opacity: 0.9;
+
+
+}
 
 
 h1 {
