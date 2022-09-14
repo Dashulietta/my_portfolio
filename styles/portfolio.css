@@ -54,7 +54,9 @@ opacity: 0.9;
 
 }
 .contact-me {
-    background-image: url(/images/background-contact.jpg);
+    background-image: url(/images/background6.jpg);
+    padding-bottom: 30px;
+   
     
     
    
@@ -62,11 +64,16 @@ opacity: 0.9;
 .contact-me h1 {
     color: #353535;
     text-align: center;
+    margin-top: 80px;
+   padding-top: 30px;
+   
     
 } 
 .contact-me h3 {
     color: #353535;
     text-align: center;
+   
+
    
 }
 .contact-me a {
@@ -77,7 +84,7 @@ opacity: 0.9;
 .contact-me p {
     padding: 0;
     font-family: var(--heading-font-family);
-    
+   
 }
 
 
