@@ -7,7 +7,22 @@
 body {
     background-color: #122223;
 }
+.nav-link {
+    color:#717A7B !important;
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    
+}
+.active {
+    color: #ffd9b6 !important;
+}
+.navbar-brand { 
+    color: #717A7B;
 
+}
+.navbar-toggler {
+    color: #717A7B !important;
+}
 .about-section {
     background-image: url(/images/background2.jpg);
     background-repeat: no-repeat;
@@ -56,6 +71,8 @@ opacity: 0.9;
 .contact-me {
     background-image: url(/images/background6.jpg);
     padding-bottom: 30px;
+    
+    margin-bottom: 60px;
    
     
     
@@ -64,7 +81,7 @@ opacity: 0.9;
 .contact-me h1 {
     color: #353535;
     text-align: center;
-    margin-top: 80px;
+   margin-top: 30px;
    padding-top: 30px;
    
     
@@ -141,7 +158,7 @@ p {
     font-family: var(--heading-font-family);
     line-height: 27px;
     padding: 15px 30px ;
-    text-decoration: underline;
+   
     
     
   
