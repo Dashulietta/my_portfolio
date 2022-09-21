@@ -24,8 +24,9 @@ body {
 
 
 .about-section {
+    max-width: 700px;
     background-image: url(/images/background2.jpg);
-    background-size: 900px;
+    background-size: 700px;
 } 
 .about-section h2 {
     margin-top: 15px;
