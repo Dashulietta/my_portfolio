@@ -24,7 +24,6 @@ body {
 
 
 .about-section {
-    max-width: 700px;
     background-image: url(/images/background2.jpg);
     background-size: 700px;
 } 
@@ -76,7 +75,7 @@ opacity: 0.9;
 .contact-me {
     background-image: url(/images/background6.jpg);
     padding-bottom: 30px;
-    
+    background-size: 700px;
     margin-bottom: 60px;
    
     
