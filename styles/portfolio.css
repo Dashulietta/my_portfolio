@@ -73,10 +73,13 @@ opacity: 0.9;
 
 }
 .contact-me {
+    display: block;
+    margin: 0 auto;
+    max-width: 1100px;
     background-image: url(/images/background6.jpg);
     padding-bottom: 30px;
     background-size: cover;
-    margin-bottom: 60px;
+   
    
     
     
