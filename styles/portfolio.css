@@ -2,113 +2,15 @@
     --primary-color: #717A7B;
     --heading-font-family: 'Cormorant Garamond', serif;
     --default-font-family: 'Ubuntu', sans-serif;
+    --secondary-color: #ffd9b6;
+    --background-color: #122223;
+    --minor-color: #353535
     
 }
 
 body {
-    background-color: #122223;
+    background-color: var(--background-color);
 }
-.nav-link {
-    color:#717A7B !important;
-    font-size: 18px;
-    font-family: var(--default-font-family);
-    
-}
-.active {
-    color: #ffd9b6 !important;
-}
-.navbar-brand { 
-    color: #717A7B;
-
-}
-
-
-.about-section {
-    background-image: url(/images/background2.jpg);
-    background-size: cover;
-} 
-.about-section h2 {
-    margin-top: 15px;
-    font-size: 38px;
-}
- 
-.about-section p {
-    text-align: left;
-    padding: 0;
-    font-size: 18px ;
-}
-.about-section a{ 
-    margin-top: 10px;
-    margin-bottom: 20px;
-    
-
-}
-
-.about-section-content a {
-    color: #717A7B;
-}
-.content-container {
-    background-color: #ffd9b6;
-} 
-.content-container h1 {
-    color: #353535;
-    font-size: 44px;
-    text-align: center;
-
-}
-.content-container h3 {
-    text-align: center;
-    color: #353535;
-    font-size: 28px ;
-    margin: 20px, 0, 0;
-}
-.content-container p {
-    text-align: center;
-    font-family: var(--heading-font-family) ;
-    padding: 0;
-    font-size: 14px;
-color: #353535;
-opacity: 0.9;
-
-
-}
-.contact-me {
-    display: block;
-    margin: 0 auto;
-    max-width: 1100px;
-    background-image: url(/images/background6.jpg);
-    padding-bottom: 30px;
-    background-size: cover;
-    
-   
-}
-.contact-me h1 {
-    color: #353535;
-    text-align: center;
-   margin-top: 30px;
-   padding-top: 30px;
-   
-    
-} 
-.contact-me h3 {
-    color: #353535;
-    text-align: center;
-   
-
-   
-}
-.contact-me a {
-    color:#717A7B;
-    text-decoration: none;
-    background-color: #ffd9b6;
-}
-.contact-me p {
-    padding: 0;
-    font-family: var(--heading-font-family);
-   
-}
-
-
 
 
 h1 {
@@ -137,89 +39,183 @@ p {
     padding:  40px 80px;
     font-size: 22px;
 }
+img {
+    margin: 10px 0;
+}
+.nav-link {
+    color:#717A7B !important;
+    font-size: 18px;
+    font-family: var(--default-font-family);
+    
+}
+.active {
+    color: var(--secondary-color) !important;
+}
+.navbar-brand { 
+    color: var(--primary-color);
+
+}
+
+
+.about-section {
+    background-image: url(/images/background2.jpg);
+    background-size: cover;
+} 
+.about-section h2 {
+    margin-top: 15px;
+    font-size: 38px;
+    text-align: left;
+}
+ 
+.about-section p {
+    text-align: left;
+    padding: 0;
+    font-size: 18px ;
+}
+.about-section a{ 
+    margin-top: 10px;
+    margin-bottom: 20px;
+    
+
+}
+
+.about-section-content a {
+    color: var(--primary-color);
+    
+}
+.projects-heading h1 {
+    text-align: center;
+    font-size: 60px;
+    padding: 60px 0;
+    color: var(--primary-color);
+}
+.content-container {
+    background-color: var(--secondary-color);
+} 
+
+.content-container h3 {
+    text-align: center;
+    color: var(--minor-color);
+    font-size: 28px ;
+    margin: 20px, 0, 0;
+}
+.content-container p {
+    text-align: center;
+    font-family: var(--heading-font-family) ;
+    padding: 0;
+    font-size: 14px;
+    color: var(--minor-color);
+opacity: 0.9;
+
+
+}
+.contact-me {
+    display: block;
+    margin: 0 auto;
+    max-width: 1100px;
+    background-image: url(/images/background6.jpg);
+    padding-bottom: 30px;
+    background-size: cover;
+    
+   
+}
+.contact-me h1 {
+    color: var(--minor-color);
+    text-align: center;
+   margin-top: 30px;
+   padding-top: 30px;
+   
+    
+} 
+.contact-me h3 {
+    color: var(--minor-color);
+    text-align: center;
+   
+
+   
+}
+.contact-me a {
+    color:var(--primary-color);
+    text-decoration: none;
+    background-color: var(--secondary-color);
+}
+.contact-me p {
+    padding: 0;
+    font-family: var(--heading-font-family);
+   
+}
+
+
+
 .hero {
     text-align: center;
     padding: 50px 20px;
 }
 .hero a {
 
- color: #717A7B;
+ color: var(--primary-color);
 }
 .btn-light {
-    background-color: #122223;
+    background-color: var(--background-color);
     font-size: 20px;
     line-height: 27px;
     font-family: var(--heading-font-family);
-    color: #ffd9b6;
-     border: 1px solid #ffd9b6;
+    color: var(--secondary-color);
+     border: 1px solid var(--secondary-color);
      padding: 15px 30px ;
-  
-    
-
 }
 
 .btn-light:hover {
-    background-color: #ffd9b6;
-     color: #353535;
+    background-color: var(--secondary-color);
+    color: var(--minor-color);
     border: none;
     border-radius: 4px;
     font-size: 20px;
     font-family: var(--heading-font-family);
     line-height: 27px;
     padding: 15px 30px ;
-   
-    
-    
-  
-
 }
 
 .projects {
-    background-color: #ffd9b6; 
-    margin: 20px 50px;
-
-    
-    
+    background-color: var(--secondary-color); 
+    margin: 20px 50px;   
 }
 .projects h2 {
-    color: #353535;
+    color: var(--minor-color);
 }
 .projects p {
-    color: #353535; 
+    color: var(--minor-color); 
     font-size: 18px; 
     padding: 10px;
     line-height: 1.7;
     opacity: 0.8;
 }
 .btn-branding {
-
+     display: block;
+     margin: 0 auto;
+     width:fit-content;
     line-height: 27px;
     font-size: 20px;
     padding: 15px 30px ;
     margin-bottom: 30px;
-    color: #353535;
+    color: var(--minor-color);
     border: 1px solid #353535;
 }
 .btn-branding:hover {
-    background-color: #122223;
+    background-color: var(--background-color);
     font-size: 20px;
     line-height: 27px;
     font-family: var(--default-font-family);
-    color: #ffd9b6;
-    
-    
+    color: var(--secondary-color);    
 }
-img {
-    margin: 10px 0;
-}
+
 
 @media (max-width: 600px) {
    h1 {
     font-size: 60px;
    }
    h2 {
-    font-size: 44px;
-    
+    font-size: 44px; 
    }
   
 p {
@@ -227,9 +223,9 @@ p {
 }
 .projects {
     margin: 0;
-    padding: 0;
-    
+    padding: 0;  
 }
+
 .about-section {
     text-align: center;
 }
@@ -241,14 +237,11 @@ p {
     margin-top: 20px;
     margin-bottom: 0;
 }
-
-
  h4  {
-    font-size: 24px;
+font-size: 24px;
 }
 
 }
-
 
 
 footer {
@@ -257,7 +250,7 @@ footer {
 
 footer .email-link {
     text-decoration: none;
-    color:#717A7B;
+    color: var(--primary-color);
     font-size: 24px;
     text-align: center;
     font-family: var(--default-font-family);
@@ -288,5 +281,6 @@ footer p {
 }
 footer p a {
   
-    color: #717A7B;
+    color: var(--primary-color);
 }
+
