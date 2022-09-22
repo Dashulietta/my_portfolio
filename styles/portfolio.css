@@ -25,7 +25,6 @@ body {
 
 .about-section {
     background-image: url(/images/background2.jpg);
-   
     background-size: cover;
 } 
 .about-section h2 {
@@ -80,9 +79,6 @@ opacity: 0.9;
     background-image: url(/images/background6.jpg);
     padding-bottom: 30px;
     background-size: cover;
-   
-   
-    
     
    
 }
@@ -129,6 +125,7 @@ h2 {
    font-size: 48px; 
    line-height: 1.5;
    margin-bottom: 20px;
+   text-align: center;
 }
 h3 {
     font-size: 32px;  
@@ -195,6 +192,7 @@ p {
     opacity: 0.8;
 }
 .btn-branding {
+
     line-height: 27px;
     font-size: 20px;
     padding: 15px 30px ;
